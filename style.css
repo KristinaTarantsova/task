@@ -1,0 +1,389 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+
+/* header  */
+.header {
+    background-color: #445161;
+    color: rgb(248, 245, 238);
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header_img {
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header_box {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    padding-left: 100px;
+}
+
+.header_heading {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 25px;
+    color: #E3E9F3;
+    margin: 10px;
+}
+
+.header_text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 10px;
+    color: #E3E9F3;
+    margin: 25px;
+}
+
+
+
+/* Objective */
+.Objective {
+    background-color: hsl(0, 100%, 100%);
+}
+
+.Objective_heding {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    color: #272f3a;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 23px;
+
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+
+.objective_text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000c4;
+
+    padding-bottom: 15px;
+
+}
+
+
+/* experience */
+.experience {
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.experience_heading {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 23px;
+
+    padding-bottom: 25px;
+    padding-top: 45px;
+}
+
+
+.experience_wrapper {
+    display: flex;
+
+}
+
+.experience_text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    color: #050505c4;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 86px;
+}
+
+.experience_title {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000c0;
+
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.text_ex {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #050505;
+
+    padding-left: 179px;
+}
+
+
+
+/* skills */
+.skills_heading {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 23px;
+    color: #000000;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.skills_text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3F313F;
+
+    padding-bottom: 30px;
+}
+
+
+/* languege  */
+.languege {
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.languege_heading {
+
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 23px;
+    color: #070707;
+
+    padding-top: 12px;
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+.languege_list {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #070707b2;
+
+    padding-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.languege_item {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #070707b7;
+
+
+    padding-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    list-style-type: circle;
+}
+
+
+
+
+/* form */
+.form {
+    background-color: #E5D6D2;
+    padding-bottom: 35px;
+}
+
+.form_heading {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 23px;
+    color: #3F313F;
+
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.form_title {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 22px;
+    color: #3F313F;
+}
+
+
+.form_input {
+    width: 366px;
+    border: 5px solid #BEB1AE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #E5D6D2;
+    font-weight: bold;
+    resize: none;
+}
+
+.area_wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form_textarea {
+    width: 736px;
+    border: 5px solid #BEB1AE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #E5D6D2;
+    font-weight: bold;
+    resize: none;
+    text-align: left;
+}
+
+.form_bnt {
+    width: 168px;
+    height: 40.28px;
+    background: #272f3a;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.form_bnt:hover {
+    background: #0a064496;
+    opacity: 0.6;
+}
+
+
+/* contacts */
+
+.contacts {
+    background-color: #272f3a;
+}
+
+.contacts_heading {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #ebeef1;
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contacts_list {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.contacts_item {
+    list-style-type: none;
+}
+
+.menu__link:hover {
+    color: red;
+}
+
+.contacts_link {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fafcff;
+    text-decoration: none;
+}
+
+.contacts_link:hover {
+    opacity: 0.6;
+}
+
+/* footer */
+.footer {
+    background-color: #272f3a;
+    color: #E3E9F3;
+}
+
+.footer_text {
+    color: #ffffff;
+
+    text-align: center;
+    padding-bottom: 13px;
+}
